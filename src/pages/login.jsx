@@ -11,8 +11,8 @@ return (
     <div className="flex">
         <div className="box flex flex-col">
 
-            <div className="flex items-center">
-                <img src={mingo} className="ms-5 w-10" alt="" />
+            <div className="flex items-center justify-center gap-2">
+                <img src={mingo} className="w-10" alt="" />
                 <h2 className="text-3xl py-5 flex items-center font-semibold">Login</h2>
             </div>
             <p className="flex items-center px-5">See your growth and get consulting support!</p>
@@ -69,7 +69,7 @@ return (
                         
             <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full">Login</button>
 
-            <div className="flex items-center justify-center mt-4 lg:flex-col">
+            <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
                 <p className="">Not Registered yet?</p>
                 <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="">Create an Account</a></span>
             </div>
