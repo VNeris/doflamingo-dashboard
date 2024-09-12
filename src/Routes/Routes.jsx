@@ -7,7 +7,8 @@ import Create from './../pages/CreateAccount'
 function MainRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Create/>}></Route>
+            <Route path="/" element={<Login/>}></Route>
+            <Route path="/Create" element={<Create />}></Route>
         </Routes>
     )
 }

@@ -8,25 +8,28 @@ function CreateAccount() {
 
         <section className="container mx-auto justify-center items-center p-4">
             <div className="flex">
-                <div className="box flex flex-col p-10">
+                <div className="box flex flex-col p-14 px-20">
 
-                    <div className="flex flex-col items-center justify-center gap-2">
-                        <img src={mingo} className="w-10 pt-5" alt="" />
-                        <h2 className="text-3xl py-5 flex items-center font-semibold">Create Account</h2>
+                    <div className="flex flex-col items-center justify-center gap-3">
+                        <img src={mingo} className="w-12" alt="" />
+                        <h2 className="text-3xl py-5 flex items-center font-semibold">Sign Up</h2>
                     </div>
-                    <p className="flex items-center px-5">See your growth and get consulting support!</p>
 
-                    <form action="" className="flex flex-col p-4 mt-5"> Email*
-                        <input className="text-black border rounded-full border-zinc-300 m-3 p-2 ps-3" placeholder="Email" type="email" />
+                    <form action="" className="flex flex-col items-center justify-center mt-5"> Name*
+                        <input className="text-black border rounded-full border-zinc-300 w-full m-3 p-2 ps-3" placeholder="Name" type="text" />
                     </form>
 
-                    <form action="" className="flex flex-col p-4"> Senha*
-                        <input className="text-black border rounded-full border-zinc-300 m-3 p-2 ps-3 " placeholder="Password" type="password" />
+                    <form action="" className="flex flex-col items-center justify-center"> Email*
+                        <input className="text-black border rounded-full border-zinc-300 w-full m-3 p-2 ps-3" placeholder="Email" type="email" />
+                    </form>
+
+                    <form action="" className="flex flex-col items-center justify-center"> Password*
+                        <input className="text-black border rounded-full border-zinc-300 w-full m-3 p-2 ps-3" placeholder="Email" type="email" />
                     </form>
 
                     <div class="inline-flex items-center">
                         <label
-                            class="relative flex cursor-pointer items-center rounded-full p-3"
+                            class="relative flex cursor-pointer rounded-full p-3"
                             for="login"
                             data-ripple-dark="true"
                         >
@@ -58,15 +61,18 @@ function CreateAccount() {
                         <p></p>
                     </div>
 
-                    <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full"><a href="src/pages/CreateAccount.jsx">Login</a></button>
+
+                    <div className="flex items-center justify-center">
+                        <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-3 w-[200px] text-white mt-4 mx-20 rounded-full"><a href="src/pages/CreateAccount.jsx">Create</a></button>
+                    </div>
 
                     <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
-                        <p className="">Not Registered yet?</p>
-                        <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="/pages/CreateAccount.jsx">Create an Account</a></span>
+                        <p className="">Already registered?</p>
+                        <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="/">Login</a></span>
                     </div>
 
 
-                    <p className="my-5 font-thin text-slate-400 flex items-center justify-center">@2024 Vneris All rights reserved</p>
+                    <p className="mt-8 font-thin text-slate-400 flex items-center justify-center">@2024 Vneris All rights reserved</p>
 
                 </div>
             </div>

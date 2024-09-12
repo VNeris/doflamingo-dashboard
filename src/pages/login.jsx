@@ -71,7 +71,7 @@ return (
 
             <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
                 <p className="">Not Registered yet?</p>
-                <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="">Create an Account</a></span>
+                    <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="Create">Create an Account</a></span>
             </div>
                 
 
