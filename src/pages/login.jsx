@@ -9,7 +9,7 @@ return (
 
     <section className="container mx-auto justify-center items-center p-4">
     <div className="flex">
-        <div className="box flex flex-col">
+        <div className="box flex flex-col px-3">
 
             <div className="flex items-center justify-center gap-2">
                 <img src={mingo} className="w-10" alt="" />
@@ -67,9 +67,9 @@ return (
                 <p></p>
         </div>
                         
-            <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full">Login</button>
+            <button type="button" onClick="" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full">Login</button>
 
-            <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
+            <div className="flex items-center justify-center mt-4 flex-col xl:flex-row">
                 <p className="">Not Registered yet?</p>
                     <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="Create">Create an Account</a></span>
             </div>

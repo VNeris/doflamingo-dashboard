@@ -1,6 +1,5 @@
 import React from "react";
 import mingo from "../assets/Doflamingo.png"
-import google from "../assets/google.png"
 
 
 function CreateAccount() {
@@ -63,7 +62,7 @@ function CreateAccount() {
 
 
                     <div className="flex items-center justify-center">
-                        <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-3 w-[200px] text-white mt-4 mx-20 rounded-full"><a href="src/pages/CreateAccount.jsx">Create</a></button>
+                        <button type="button" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-3 w-[200px] text-white mt-4 mx-20 rounded-full"><a href="Dashboard">Create</a></button>
                     </div>
 
                     <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
