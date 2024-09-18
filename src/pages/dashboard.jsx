@@ -1,16 +1,16 @@
-import mingo from "../assets/Doflamingo.png"
-
+import SideBar from "../components/SideBar"
+import HomeDashboard from "../components/HomeDashboard"
 
 
 
 export function Dashboard() {
     return (
-        <section className="bg-white">
+        <section className="">
             <div className="container mx-auto">
-                <div className="flex flex-col items-center">
-                </div>
+                <SideBar></SideBar>
+                <HomeDashboard></HomeDashboard>
 
-        </div>
+            </div>
     </section>
 
             )

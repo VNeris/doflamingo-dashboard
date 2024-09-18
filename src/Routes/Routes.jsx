@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import Login from './../pages/login'
 import Create from './../pages/CreateAccount'
-import Dashboard from './../pages/dashboard'
+import Login from './../pages/login'
+import Dashboard from '../pages/dashboard';
 
 
 function MainRoutes() {
