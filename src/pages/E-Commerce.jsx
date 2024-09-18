@@ -1,17 +1,15 @@
 import SideBar from "../components/SideBar"
-import HomeDashboard from "../components/HomeDashboard"
 
 
-export function Dashboard() {
+export function ECommerce() {
     return (
         <section className="">
             <div className="container mx-auto">
                 <SideBar></SideBar>
-                <HomeDashboard></HomeDashboard>
             </div>
-    </section>
+        </section>
 
-            )
+    )
 }
 
-export default Dashboard
+export default ECommerce

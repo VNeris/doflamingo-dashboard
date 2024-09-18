@@ -38,7 +38,7 @@ function CreateAccount() {
 
                     <div className="flex items-center justify-center mt-4 flex-col lg:flex-row">
                         <p className="text-center">Already registered?</p>
-                        <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="/">Login</a></span>
+                    <a href="/"><span className="ps-1 text-pink-600 hover:text-pink-500">Login</span></a>
                     </div>
 
 

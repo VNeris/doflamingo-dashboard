@@ -38,11 +38,11 @@ return (
                     <Checkbox color="pink" defaultChecked label="Remember Me"/>
         </div>
                         
-                <button type="button" onClick="" className="bg-pink-600 hover:shadow-md hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full" ><a href="Dashboard">Login</a></button>
+                <a href="Dashboard" className="bg-pink-600 hover:shadow-md text-center hover:bg-pink-500 p-2 text-white mt-4 mx-20 rounded-full"><button type="button" onClick="" >Login</button></a>
 
             <div className="flex items-center justify-center mt-4 flex-col xl:flex-row">
                 <p className="">Not Registered yet?</p>
-                    <span className="ps-1 text-pink-600 hover:text-pink-500"><a href="Create">Create an Account</a></span>
+                    <a href="Create"><span className="ps-1 text-pink-600 hover:text-pink-500">Create an Account</span></a>
             </div>
                 
 
