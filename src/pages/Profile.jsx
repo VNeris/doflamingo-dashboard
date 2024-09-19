@@ -1,8 +1,15 @@
 import React from 'react';
+import SideBar from "../components/SideBar";
+
 
  export function Profile() {
     return (
-        <h1>Profile</h1>
+        <section className="">
+            <div className="container mx-auto">
+                <SideBar></SideBar>
+            </div>
+        </section>
+
     );
 }
 

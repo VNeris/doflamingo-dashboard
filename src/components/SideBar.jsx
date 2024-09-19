@@ -26,7 +26,7 @@ export function SideBar() {
         <Card className=" h-[calc(100vh-3rem)] mt-6 w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 rounded-sm">
             <div className="mb-2 p-4 flex gap-2">
                 <img src={mingo} className="w-10" alt="" />
-                <Typography className="text-2xl text-pink-600" color="pink">
+                <Typography className="text-2xl text-pink-600 font-semibold" color="pink">
                     Mingo
                 </Typography>
             </div>
