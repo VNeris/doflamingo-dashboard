@@ -31,19 +31,26 @@ export function SideBar() {
                 </Typography>
             </div>
             <List>
+
+                <Link to="/Dashboard">
                 <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <PresentationChartBarIcon className=" text-pink-600 mr-2 h-20 xl:h-24 w-5" />
-                        <Link to="">Dashboard</Link> 
+                        Dashboard
                     </ListItemPrefix>
                 </ListItem>
-                <Link to="./ECommerce"><ListItem className="hover:text-pink-400">
+                </Link>
+
+                <Link to="/ECommerce">
+                <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <ShoppingBagIcon className=" text-pink-600 mr-2 h-20 xl:h-24 w-5" />
                             E-Commerce
                     </ListItemPrefix>
                 </ListItem>
                 </Link>
+
+                <Link to="/Inbox">
                 <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <InboxIcon className=" text-pink-600 mr-2 h-20 xl:h-24 w-5" />
@@ -54,24 +61,36 @@ export function SideBar() {
                         <Chip size="sm" variant="ghost" color="pink" className="rounded-full" />
                     </ListItemSuffix>
                 </ListItem>
+                </Link>
+
+                <Link to="/Profile">
                 <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <UserCircleIcon className=" text-pink-600 mr-2 h-20 xl:h-24 w-5" />
                     Profile
                     </ListItemPrefix>
                 </ListItem>
+                </Link>
+
+                <Link to="/Settings">
                 <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <Cog6ToothIcon className= "text-pink-600 mr-2 h-20 xl:h-24 w-5" />
                     Settings
                     </ListItemPrefix>
                 </ListItem>
+            </Link>
+
+                <Link to="/">
                 <ListItem className="hover:text-pink-400">
                     <ListItemPrefix className="hover:text-pink-400 flex items-center">
                         <PowerIcon className=" text-pink-600 mr-2 h-20 xl:h-24 w-5" />
                     Log Out
                     </ListItemPrefix>
                 </ListItem>
+                </Link>
+
+
             </List>
         </Card>
     );
