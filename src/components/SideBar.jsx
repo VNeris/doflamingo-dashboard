@@ -58,7 +58,7 @@ export function SideBar() {
                     </ListItemPrefix>
                     <Chip value="14" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
                     <ListItemSuffix>
-                        <Chip size="sm" variant="ghost" color="pink" className="rounded-full" />
+                            <Chip value="" size="sm" variant="ghost" color="pink" className="rounded-full" />
                     </ListItemSuffix>
                 </ListItem>
                 </Link>

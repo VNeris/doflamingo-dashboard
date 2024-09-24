@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBar from "../components/SideBar";
+import { HomeProfile } from '../components/HomeProfile';
 
 
  export function Profile() {
@@ -7,6 +8,7 @@ import SideBar from "../components/SideBar";
         <section className="">
             <div className="container mx-auto">
                 <SideBar></SideBar>
+                <HomeProfile></HomeProfile>
             </div>
         </section>
 

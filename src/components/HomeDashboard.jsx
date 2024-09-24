@@ -8,7 +8,7 @@ import { Gauge } from '@mui/x-charts/Gauge';
 export function HomeDashboard() {
     return (
         <>
-        <main className="bg-white w-auto my-6 rounded-sm ">
+        <main className="bg-zinc-50 w-auto my-6 rounded-sm ">
 
                 
                 <div className="p-6 flex flex-col items-center justify-center">
