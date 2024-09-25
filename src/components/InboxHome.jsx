@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const InboxHome = () => {
     // Exemplo de dados fictícios
@@ -25,14 +25,21 @@ const InboxHome = () => {
         },
     ];
 
+   {/*states para conversar*/}
+    const [message, setMessage] = useState('');
+
     const [selectedConversation, setSelectedConversation] = useState(null);
 
     const handleConversationClick = (conversation) => {
-        setSelectedConversation(conversation);
+        setSelectedConversation(conversation)
+    }
+
+    const showMessage = () => {
+        setMessage('Hello, this is your message!');
     };
 
     return (
-        <div className="flex my-6 rounded-sm w-full">
+        <div className="flex rounded-sm w-full">
             {/* Lista de conversas */}
             <div className="w-1/3 bg-zinc-100 text-pink-600 border-r">
                 <h2 className="text-xl p-4 border-b font-semibold">Inbox</h2>
@@ -66,7 +73,9 @@ const InboxHome = () => {
                                 </div>
                             ))}
                         </div>
-                            <input type="text" className='ms-2 border-2 rounded-full p-1 ps-2 top-[560px] w-[600px] relative' placeholder='Mensagem' />
+                        <form action="" className="flex items-center sm:gap-1" onSubmit={showMessage}>
+                            <input type="text" className='ms-2 border-2 rounded-full p-1 ps-2 top-[500px] w-[600px] relative'  placeholder='Mensagem' />
+                        </form>
                     </div>
                 ) : (
                     <div className="p-4">Selecione uma conversa para visualizar.</div>

@@ -1,18 +1,21 @@
+import React from 'react';
+import ProductsHome from '../components/ProductsHome'; 
 import SideBar from "../components/SideBar"
-import HomeDashboard from "../components/HomeDashboard"
 import Navbar from "../components/Navbar"
 
-export function Dashboard() {
+
+function Products() {
     return (
         <section className="">
-                <Navbar></Navbar>
+            <Navbar></Navbar>
             <div className="flex flex-row w-100">
                 <SideBar></SideBar>
-                <HomeDashboard></HomeDashboard>
+                <ProductsHome />
             </div>
-    </section>
+            
+        </section>
 
-            )
+    )
 }
 
-export default Dashboard
+export default Products

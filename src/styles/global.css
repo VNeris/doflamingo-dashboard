@@ -42,7 +42,7 @@ background: #fff;
 }
 
 body {
-margin: 0px;
+height: 100vh;
 background: rgb(150,92,236);
 background: linear-gradient(43deg, rgba(150,92,236,1) 0%, rgba(241,190,244,1) 71%);
 }

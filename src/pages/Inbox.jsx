@@ -1,13 +1,16 @@
 import React from "react"; 
 import SideBar from "../components/SideBar";
 import InboxHome from "../components/InboxHome"
+import Navbar from "../components/Navbar"
+
 
 
 
 export function Inbox() {
     return (
         <section className="">
-            <div className="container mx-auto">
+              <Navbar></Navbar>
+            <div className="flex flex-row w-100">
                 <SideBar></SideBar>
                 <InboxHome></InboxHome>
             </div>

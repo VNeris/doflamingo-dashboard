@@ -12,7 +12,9 @@ function AddProduto() {
     }
 }
 
-const EcommerceHome = () => {
+const ProductsHome = () => {
+
+  
   const [products] = useState([
     {
       id: 1,
@@ -45,19 +47,23 @@ const EcommerceHome = () => {
       </div>
     );
   };
+
+
   return (
-    <div className="flex flex-col w-full my-6 shadow-md bg-white p-4">
+
+    
+    <div className=" flex flex-col w-full shadow-md bg-white p-4">
       <h1 className="text-2xl font-bold text-black border-b-2 py-2 border-b-pink-300 mb-6">Gerenciamento de Produtos</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-      <div className='flex flex-col relative top-[45%] left-[38%] w-60 justify-center'>
-          <button onClick={AddProduto} className="text-xl bg-pink-500 text-white p-2 rounded-full flex items-center justify-center"> Adicionar Produto</button>
+      <div className='flex flex-col w-60 justify-center'>
+        <button onClick={AddProduto} className="text-xl top-[350px] left-[650px] relative bg-pink-500 text-white p-2 rounded-full"> Adicionar Produto</button>
       </div>
     </div>
   );
 };
 
-export default EcommerceHome;
+export default ProductsHome;
