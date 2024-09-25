@@ -20,7 +20,7 @@ export function HomeDashboard() {
                     <h2 className="text-3xl font-normal">Issues List</h2>
                 </div>
 
-                <div className="grid grid-rows-auto grid-cols-3 lg:grid-cols-2 items-center content-center justify-items-center p-5 gap-2">
+                <div className="grid grid-rows-auto grid-cols-3 lg:grid-cols-2 items-center content-center justify-items-center p-10 gap-2">
 
 
                     <div className=" xl:col-span-2 md:col-span-3 shadow-sm rounded-md bg-zinc-50">
