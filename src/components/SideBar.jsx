@@ -21,7 +21,7 @@ import { Link } from "react-router-dom";
 export function SideBar() {
 
     return (
-        <Card className=" h-[100vh] w-full max-w-[20rem] p-4 rounded-sm">
+        <Card className=" h-100  w-full max-w-[20rem] p-4 rounded-none">
             
             <List>
 
@@ -51,7 +51,7 @@ export function SideBar() {
                     </ListItemPrefix>
                     <Chip value="14" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
                     <ListItemSuffix>
-                            <Chip value="" size="sm" variant="ghost" color="pink" className="rounded-full" />
+                            <Chip value="" size="sm" variant="ghost" color="pink" className="rounded-full bg-pink-400" />
                     </ListItemSuffix>
                 </ListItem>
                 </Link>
