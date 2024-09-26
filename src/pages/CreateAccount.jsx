@@ -1,5 +1,4 @@
 import React from "react";
-import mingo from "../assets/Doflamingo.png"
 import { Checkbox } from "@material-tailwind/react";
 
 function CreateAccount() {
@@ -8,7 +7,7 @@ function CreateAccount() {
         <section className="container mx-auto justify-center items-center p-4">
             <div className="box flex flex-col p-14 w-full sm:w-auto px-16">
                     <div className="flex flex-col items-center justify-center gap-3">
-                        <img src={mingo} className="w-12" alt="" />
+                    <img src={"/assets/Doflamingo.png"} className="w-12" alt="" />
                         <h2 className="text-3xl py-5 flex items-center font-semibold">Sign Up</h2>
                     </div>
 
