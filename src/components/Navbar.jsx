@@ -1,5 +1,4 @@
 import React from 'react';
-import mingo from "../assets/Doflamingo.png"
 import {
     Typography,
 } from "@material-tailwind/react";
@@ -11,7 +10,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 
                 <div className="mb-2 flex relative top-2 left-7 gap-2">
-                    <img src={mingo} className="w-10" alt="" />
+                    <img src={"/assets/Doflamingo.png"} className="w-10" alt="" />
                     <Typography className="text-2xl text-pink-600 font-semibold" color="pink">
                         Mingo
                     </Typography>
