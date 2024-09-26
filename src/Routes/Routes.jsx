@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 
 import Create from '../pages/CreateAccount'
-import Login from '../pages/Login'
+import { Login } from '../pages/Login'
 import Dashboard from '../pages/Dashboard';
 import Products from '../pages/Products'
 import Inbox from '../pages/Inbox';

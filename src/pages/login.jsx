@@ -5,7 +5,7 @@ import google from "../assets/google.png"
 import mingo from "../assets/Doflamingo.png"
 import teste from "../assets/teste.png"
 
-function Login() {
+export function Login() {
     return (
         <section className="container mx-auto justify-center items-center p-4">
             <div className="flex">
@@ -59,5 +59,3 @@ function Login() {
 
     );
 }
-
-export default Login
