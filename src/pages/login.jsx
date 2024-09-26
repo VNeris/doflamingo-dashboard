@@ -1,7 +1,9 @@
+import { Checkbox } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
+
 import google from "../assets/google.png"
 import mingo from "../assets/Doflamingo.png"
 import teste from "../assets/teste.png"
-import { Checkbox } from "@material-tailwind/react";
 
 function Login() {
     return (
@@ -39,7 +41,7 @@ function Login() {
 
                     <div className="flex items-center justify-center mt-4 flex-col xl:flex-row">
                         <p className="">Not Registered yet?</p>
-                        <a href="Create"><span className="ps-1 text-pink-600 hover:text-pink-500">Create an Account</span></a>
+                        <Link to="/sign-up"><span className="ps-1 text-pink-600 hover:text-pink-500">Create an Account</span></Link>
                     </div>
 
 
