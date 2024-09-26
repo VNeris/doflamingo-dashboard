@@ -1,20 +1,15 @@
 import React from "react";
 import SideBar from "../components/SideBar";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 
-
-
-export function Settings() {
+function Settings() {
     return (
-        
-        <section className="">
-            <Navbar></Navbar>
+        <section>
+            <Navbar />
             <div className="flex flex-row w-100">
-                <SideBar></SideBar>
+                <SideBar />
             </div>
         </section>
-
-
     );
 }
 

@@ -17,7 +17,6 @@ const Navbar = () => {
                     </Typography>
                 </div>
 
-
                 <ul className="flex text-xl items-center space-x-10 right-20 relative">
                     <Link to="/Dashboard"><li className="text-black hover:text-pink-600">Home</li></Link>
                     <Link to="/Profile"><li className="text-black hover:text-pink-600">Profile</li></Link>

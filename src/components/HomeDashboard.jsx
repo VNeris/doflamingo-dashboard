@@ -1,14 +1,10 @@
 import React from "react";
+import { FaArrowUp } from "react-icons/fa6";
 import { BarChart } from '@mui/x-charts/BarChart';
 import { LineChart } from '@mui/x-charts/LineChart';
 import { PieChart } from '@mui/x-charts/PieChart';
-import { FaArrowUp } from "react-icons/fa6";
 
-
-
-export function HomeDashboard() {
-
-
+function HomeDashboard() {
   
     return (
         <>

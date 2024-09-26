@@ -2,8 +2,6 @@ import React from "react";
 import mingo from "../assets/Doflamingo.png"
 import { Checkbox } from "@material-tailwind/react";
 
-
-
 function CreateAccount() {
     return (
 

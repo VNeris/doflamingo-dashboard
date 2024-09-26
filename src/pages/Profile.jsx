@@ -1,17 +1,16 @@
 import React from 'react';
+
 import SideBar from "../components/SideBar";
 import { HomeProfile } from '../components/HomeProfile';
 import Navbar from "../components/Navbar"
 
-
-
- export function Profile() {
+function Profile() {
     return (
-        <section className="">
-            <Navbar></Navbar>
+        <section>
+            <Navbar />
             <div className="flex flex-row w-100">
-                <SideBar></SideBar>
-                <HomeProfile></HomeProfile>
+                <SideBar />
+                <HomeProfile />
             </div>
         </section>
 

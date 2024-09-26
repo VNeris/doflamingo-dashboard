@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar"
 
 
 
-export function Inbox() {
+function Inbox() {
     return (
         <section className="">
               <Navbar></Navbar>
