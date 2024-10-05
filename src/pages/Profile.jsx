@@ -4,7 +4,7 @@ import SideBar from "../components/SideBar";
 import { HomeProfile } from '../components/HomeProfile';
 import Navbar from "../components/Navbar"
 
-function Profile() {
+export function Profile() {
     return (
         <section className="min-h-dvh flex flex-col">
             <Navbar />
@@ -17,4 +17,3 @@ function Profile() {
     );
 }
 
-export default Profile

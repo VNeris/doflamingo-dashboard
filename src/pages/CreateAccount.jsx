@@ -1,7 +1,7 @@
 import React from "react";
 import { Checkbox } from "@material-tailwind/react";
 
-function CreateAccount() {
+export function CreateAccount() {
     return (
 
         <section className="container mx-auto justify-center items-center p-4">
@@ -46,4 +46,3 @@ function CreateAccount() {
     )
 }
 
-export default CreateAccount

@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "../components/SideBar";
 import Navbar from "../components/Navbar";
 
-function Settings() {
+export function Settings() {
     return (
         <section className="min-h-dvh flex flex-col">
             <Navbar />
@@ -13,4 +13,3 @@ function Settings() {
     );
 }
 
-export default Settings;

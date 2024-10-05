@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar"
 
 
 
-function Inbox() {
+export function Inbox() {
     return (
         <section className="min-h-dvh flex flex-col">
               <Navbar></Navbar>
@@ -20,4 +20,3 @@ function Inbox() {
 }
 
 
-export default Inbox

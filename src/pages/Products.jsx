@@ -4,7 +4,7 @@ import ProductsHome from '../components/ProductsHome';
 import SideBar from "../components/SideBar"
 import Navbar from "../components/Navbar"
 
-function Products() {
+export function Products() {
     return (
         <section className="min-h-dvh flex flex-col">
             <Navbar></Navbar>
@@ -18,4 +18,3 @@ function Products() {
     )
 }
 
-export default Products
