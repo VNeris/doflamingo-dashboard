@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { CreateAccount } from '../pages/CreateAccount'
 import { Login } from '../pages/login'
-import { Dashboard } from '../pages/Dashboard';
+import { Dashboard } from '../pages/dashboard';
 import { Products } from '../pages/Products'
 import { Inbox } from '../pages/Inbox';
 import { Profile } from '../pages/Profile';
