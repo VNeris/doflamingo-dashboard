@@ -24,7 +24,7 @@ function HomeDashboard() {
                         <BarChart
                             xAxis={[{ scaleType: 'band', data: ['Month 1', 'Month 2', 'Month 3'] }]}
                             series={[{ data: [4, 3, 5] }, { data: [1, 6, 3] }, { data: [2, 5, 6] }, { data: [2, 6, 4] }, { data: [2, 3, 2] }]}
-                            width={1000}
+                            width={1100}
                             height={420}
                         />
                     </div>
@@ -70,26 +70,19 @@ function HomeDashboard() {
                 </div>
 
 
-                        <div className="grid col-span-2 bg-zinc-50 w-full h-32 rounded-md shadow-sm">
-                            <div className="flex items-center justify-around">
-                            <h2 className="text-2xl flex-col flex font-semibold text-black">download your earning report
-                                <p className="text-sm text-zinc-400/75 font-thin">There are many variantions of passages</p>
-                            </h2>
-                            <button className="text-lg bg-pink-500 rounded-full shadow-lg hover:shadow-pink-400/50 shadow-pink-500/50 hover:bg-pink-300 px-5 p-2 text-white">Create Report</button>
-                            </div>
-                        </div>
-
                         <div className="grid col-span-3 bg-zinc-50 w-full h-32 rounded-md shadow-sm">
-                            <div className="grid grid-cols-3">
-                            <div>Summary</div>
-                            <div>Total Products Registered</div>
+                            <div className="flex items-center justify-around">
+                                <h2 className="text-2xl flex-col flex font-semibold text-black">download your earning report
+                                    <p className="text-sm text-zinc-400/75 font-thin">There are many variantions of passages</p>
+                                </h2>
+                            <button className="text-lg bg-pink-500 rounded-full shadow-lg hover:shadow-pink-400/50 shadow-pink-500/50 hover:bg-pink-300 px-5 p-2 text-white">Create Report</button>
                             </div>
                         </div>
                             
 
 
-                    <div className="shadow-sm  bg-white rounded-md">
-                        <h2 className="text-xl pt-5 flex items-center ps-5 text-opacity-80 font-semibold text-pink-600">Daily Sales</h2>
+                    <div className="shadow-sm grid col-span-3 bg-white rounded-md">
+                        <h2 className="text-xl pt-5 justify-center flex items-center ps-5 text-opacity-80 font-semibold text-pink-600">Daily Sales</h2>
 
 
                         <LineChart
@@ -99,7 +92,7 @@ function HomeDashboard() {
                                     data: [0, 4, 1.5, 2, 1.5, 5],
                                 },
                             ]}
-                            width={400}
+                            width={1500}
                             height={300}
                         />
                     </div>       

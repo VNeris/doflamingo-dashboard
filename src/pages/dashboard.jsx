@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar"
 
 export function Dashboard() {
     return (
-        <section className="">
+        <section className="min-h-dvh flex flex-col">
                 <Navbar></Navbar>
-            <div className="flex flex-row w-100">
+            <div className="flex flex-row w-100 flex-1">
                 <SideBar></SideBar>
                 <HomeDashboard></HomeDashboard>
             </div>
